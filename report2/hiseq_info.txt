@@ -1,0 +1,13 @@
+run_accession condition
+
+SRR5311879 Susceptible
+
+SRR5311880 Susceptible
+
+SRR5311881 Susceptible
+
+SRR5311882 Resistant
+
+SRR5311883 Resistant
+
+SRR5311884 Resistant
