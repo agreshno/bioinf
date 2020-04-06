@@ -79,5 +79,5 @@ module load java
 
 #run commands on SLURM's srun
 
-srun java -jar /nfs/scistore03/vicosgrp/Bioinformatics_2018/Beatriz/0-Software/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SRR4787052_1.fastq SRR4787052_2.fastq  SRR4787052_1_paired.fastq SRR4787052_1_unpaired.fastq SRR4787052_2_paired.fastq SRR4787052_2_unpaired.fastq ILLUMINACLIP:/nfs/scistore03/vicosgrp/Bioinformatics_2018/Beatriz/0-Software/Trimmomatic-0.36/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+srun java -jar /nfs/scistore03/vicosgrp/Bioinformatics_2018/Beatriz/0-Software/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 ERR305392_1.fastq ERR305392_2.fastq ERR305392_1_paired.fastq ERR305392_1_unpaired.fastq ERR305392_2_paired.fastq ERR305392_2_unpaired.fastq ILLUMINACLIP:/nfs/scistore03/vicosgrp/Bioinformatics_2018/Beatriz/0-Software/Trimmomatic-0.36/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
