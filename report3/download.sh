@@ -79,4 +79,4 @@ module load SRA-Toolkit/2.8.1-3
 
  #run commands on SLURM's srun
 
-srun fastq-dump --skip-technical --readids --split-files ERX278741
+srun fastq-dump --skip-technical --readids --split-files ERR305392
