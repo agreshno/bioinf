@@ -75,10 +75,10 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 #run commands on SLURM's srun
 
-srun grep -v 'XS:i:' SRR859218.sam > SRR859218_uniq.sam
+srun grep -v 'XS:i:' SRR869918.sam > SRR869918_uniq.sam
 
-srun grep -v 'XS:i:' SRR859219.sam > SRR859219_uniq.sam
+srun grep -v 'XS:i:' SRR869919.sam > SRR869919_uniq.sam
 
-srun grep -v 'XS:i:' SRR859220.sam > SRR859220_uniq.sam
+srun grep -v 'XS:i:' SRR869920.sam > SRR869920_uniq.sam
 
-srun grep -v 'XS:i:' SRR859221.sam > SRR859221_uniq.sam
+srun grep -v 'XS:i:' SRR869921.sam > SRR869921_uniq.sam
