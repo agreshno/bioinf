@@ -1,1 +1,1 @@
-This is a folder with plots for report #3.
+This is a folder with files for report #3.
