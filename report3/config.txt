@@ -1,0 +1,7 @@
+# If you want to specify the gene list as "genome", use "-1".
+# Use TAB to separate the three columns: coverage file<TAB>gene list<TAB>title
+# "title" will be shown in the figure's legend.
+H3K4me2_chipseq.bam     genes_high.txt  "High"
+H3K4me2_chipseq.bam     genes_medium.txt        "Med"
+H3K4me2_chipseq.bam     genes_low.txt   "Low"
+H3K4me2_chipseq.bam     genes_noexp.txt "No"
